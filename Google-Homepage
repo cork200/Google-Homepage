@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Google</title>
+   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="Google-Homepage.CSS"
+ </head>
+ <body>
+   <ul class="header">
+    <li> <a href="https://accounts.google.com/ServiceLogin?sacu=1&continue=https%3A%2F%2Fplus.google.com%2Fu%2F0%2F%3Fgpsrc%3Dgplp0&service=oz"><button id="sign-in">Sign In</button></a></li>
+    <li a href="http://www.google.ie/intl/en/about/products/">Options</a></li>
+    <li><a href="https://www.google.ie/imghp?hl=en&tab=wi&ei=Ey7aU7uoHoWi7Qbt7oGIAg&ved=0CAQQqi4oAg">Images</a></li>
+    <li><a href="https://accounts.google.com/ServiceLogin?sacu=1&continue=https%3A%2F%2Fplus.google.com%2Fu%2F0%2F%3Fgpsrc%3Dgplp0&service=oz">Gmail</a></li>
+    <li><a href="https://accounts.google.com/ServiceLogin?sacu=1&continue=https%3A%2F%2Fplus.google.com%2Fu%2F0%2F%3Fgpsrc%3Dgplp0&service=oz">+You</a></li>
+    <li></li>
+   </ul>
+  <div class=container>
+   <img src="https://www.google.ie/images/srpr/logo11w.png">
+   <form action="processingscript.php" method="POST">
+    <p><input id="searchbox" type="text" name="searchbox"/></p>
+    </form>
+   <p class=Irish>Google is also offered in:<a href="https://www.google.ie/">Gaeilge</a></p>
+  </div>
+  <div class="submit">
+    <button ID="google">Google Search</button>
+    <button ID="lucky">I'm Feeling Lucky</button>
+  </div>
+  <div class=footer>
+   <ul id="left">
+    <li> <a href="https://www.google.ie/intl/en/ads/?fg=1">Advertising</a></li>
+    <li><a href="https://www.google.ie/services/?fg=1">Business</a></li>
+    <li><a href="https://www.google.ie/intl/en/about/">About</a></li>
+   </ul>
+   <ul id="right">
+    <li><a href="https://www.google.com/?gws_rd=ssl">Use Google.com</a></li>
+    <li><a href="https://www.google.ie/preferences?hl=en-IE&fg=1">Settings</a></li>
+    <li><a href="https://www.google.ie/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+   </ul>
+  </div>
+ </body>
+</html>
